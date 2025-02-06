@@ -1,0 +1,53 @@
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background */
+    border-radius: 50%; /* Make circular */
+    padding: 15px; /* Increase padding for better visibility */
+    width: 50px; /* Increase arrow size */
+    height: 50px;
+}
+
+/* Optional: Add a white border for better visibility */
+.carousel-control-prev,
+.carousel-control-next {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); /* Add shadow */
+}
+
+/* Optional: Change the arrow color */
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    color: white;
+}
+
+.BuyButton{
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.carauselClass{
+    /* padding-top: 20px; */
+    margin-top: 20px;
+}
+.bg-custom{
+   background-color: #FCEAE8;
+}
+.text-mod{
+    padding-left: 50px;
+}
+.bagColor{
+    background-color: black;
+}
+.shoeColor{
+    background-color: #FCEAE8;
+}
+.watchColor{
+    background-color: #FCEAE8;
+}
