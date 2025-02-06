@@ -42,12 +42,87 @@
 .text-mod{
     padding-left: 50px;
 }
-.bagColor{
-    background-color: black;
+
+.gap1{
+    padding-top: 30px;
 }
-.shoeColor{
-    background-color: #FCEAE8;
+.product-box {
+    border-radius: 200px; /* Rounded corners */
+    color: white; /* White text */
+    padding: 30px;
+    display: flex;
+    align-items: center;
 }
-.watchColor{
-    background-color: #FCEAE8;
+
+/* Individual Product Colors */
+.product-box {
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* White text */
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    min-height: 150px; /* Set a consistent height */
+}
+
+
+.bag-box {
+    background-color: #d04156;
+    background-image: linear-gradient(43deg, #d04156 0%, #c8509d 46%, #f9f9f9 100%);
+    border-radius: 20px;
+
+}
+
+.shoe-box {
+    background-color: #ffffff;
+    background-image: linear-gradient(43deg, #ffffff 0%, #ca3c9c 46%, #ffffff 100%);
+    border-radius: 20px;
+    
+
+}
+
+.watch-box {
+    /* background-color: #88b04b; Green */
+    background-color: #ffffff;
+    background-image: linear-gradient(62deg, #ffffff 0%, #fff15b 50%, #fffbfa 100%);
+    border-radius: 20px;
+    margin-right: 00px;
+
+}
+
+/* Image Styling */
+.product-box img {
+    max-width: 60px; /* Adjust size */
+    height: auto;
+}
+
+/* Space between Name & Image */
+.me-3 {
+    margin-left: 20px;
+}
+
+/* Adds White Space Between Products */
+.g-3 {
+    --bs-gutter-x: 30px; /* Horizontal space */
+    --bs-gutter-y: 20px; /* Vertical space */
+}
+
+.secondPart{
+    background-color: gainsboro;
+}
+.productDetails {
+    display: flex;
+    flex-direction: column;  /* Align children vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: center;     /* Horizontally center the content */
+    text-align: center;      /* Center text inside the elements */
+    height: 100%;            /* Ensure the container takes full height */
+    background-color: white;
+}
+
+.productDetails img {
+    margin-bottom: 15px;  /* Space between image and text */
+}
+
+.BuyButton {
+    margin-top: 15px;  /* Space between button and text */
 }
