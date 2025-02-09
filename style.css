@@ -1,128 +1,38 @@
-.carousel-control-prev-icon, 
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.7); /* Darker background */
-    border-radius: 50%; /* Make circular */
-    padding: 15px; /* Increase padding for better visibility */
-    width: 50px; /* Increase arrow size */
-    height: 50px;
-}
-
-/* Optional: Add a white border for better visibility */
-.carousel-control-prev,
-.carousel-control-next {
-    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); /* Add shadow */
-}
-
-/* Optional: Change the arrow color */
-.carousel-control-prev-icon::before,
-.carousel-control-next-icon::before {
-    color: white;
-}
-
-.BuyButton{
-    background-color: #f8f9fa;
-    color: #000;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-.carauselClass{
-    /* padding-top: 20px; */
-    margin-top: 20px;
-}
 .bg-custom{
-   background-color: #FCEAE8;
+    background-color: #FCEAE8;
 }
-.text-mod{
-    padding-left: 50px;
+.bag-box{
+    /* margin-left: 50px; */
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
-
-.gap1{
-    padding-top: 30px;
+.text-format{
+    margin-left: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
-.product-box {
-    border-radius: 200px; /* Rounded corners */
-    color: white; /* White text */
-    padding: 30px;
-    display: flex;
-    align-items: center;
-}
-
-/* Individual Product Colors */
-.product-box {
-    border-radius: 10px; /* Rounded corners */
-    color: white; /* White text */
-    padding: 60px;
-    display: flex;
-    align-items: center;
-    min-height: 150px; /* Set a consistent height */
-}
-
-
-.bag-box {
-    background-color: #d04156;
-    background-image: linear-gradient(43deg, #d04156 0%, #c8509d 46%, #f9f9f9 100%);
-    border-radius: 20px;
-
-}
-
-.shoe-box {
-    background-color: #ffffff;
-    background-image: linear-gradient(43deg, #ffffff 0%, #ca3c9c 46%, #ffffff 100%);
-    border-radius: 20px;
+.shoe-box{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
     
-
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
-
-.watch-box {
-    /* background-color: #88b04b; Green */
-    background-color: #ffffff;
-    background-image: linear-gradient(62deg, #ffffff 0%, #fff15b 50%, #fffbfa 100%);
-    border-radius: 20px;
-    margin-right: 00px;
-
-}
-
-/* Image Styling */
-.product-box img {
-    max-width: 60px; /* Adjust size */
-    height: auto;
-}
-
-/* Space between Name & Image */
-.me-3 {
-    margin-left: 20px;
-}
-
-/* Adds White Space Between Products */
-.g-3 {
-    --bs-gutter-x: 30px; /* Horizontal space */
-    --bs-gutter-y: 20px; /* Vertical space */
-}
-
-.secondPart{
-    background-color: gainsboro;
-}
-.productDetails {
-    display: flex;
-    flex-direction: column;  /* Align children vertically */
-    justify-content: center; /* Vertically center the content */
-    align-items: center;     /* Horizontally center the content */
-    text-align: center;      /* Center text inside the elements */
-    height: 100%;            /* Ensure the container takes full height */
-    background-color: white;
-}
-
-.productDetails img {
-    margin-bottom: 15px;  /* Space between image and text */
-}
-
-.BuyButton {
-    margin-top: 15px;  /* Space between button and text */
+.watch-box{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
