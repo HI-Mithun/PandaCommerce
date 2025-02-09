@@ -1,10 +1,15 @@
 .bg-custom{
     background-color: #FCEAE8;
 }
+.carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 .bag-box{
     /* margin-left: 50px; */
     background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
     border-radius: 10px;
     box-sizing: border-box;
@@ -35,4 +40,80 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+}
+
+.subscription-box {
+    text-align: center;
+    background-color: #6592be; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-control {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.BuyButton{
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 15%;
+}
+.text-mod{
+    padding-left: 40px;
+}
+.BuyButton2{
+    background-color: #504242;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 30%;
+}
+.gap{
+    padding-top: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    text-align: center; /* Ensures text is aligned */
+    height: 100%; /* Make sure the box has a defined height */
+    padding: 20px; /* Add some spacing */
 }
