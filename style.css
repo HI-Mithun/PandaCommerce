@@ -119,3 +119,11 @@
     height: 100%;
     padding: 20px;
 }
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+    font-size: 18px;
+}
